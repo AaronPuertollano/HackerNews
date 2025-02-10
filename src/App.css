@@ -1,0 +1,86 @@
+:root {
+  --white-color: #ffffff;
+  --black-color: #16181d;
+  --orange-color: #fa4d19;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #a4a4a4;
+}
+
+.logo {
+  padding: 1em;
+  height: 40px;
+  width: auto;
+  margin-right: 20px;
+}
+
+/* Estilo header */
+.header {
+  background-color: #16181d;
+  padding: 0px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilos para la barra de navegación */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: var(--orange-color);
+  color: var(--black-color);
+}
+
+ul {
+  background-color: var(--black-color);
+  color: white;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--orange-color);
+}
+
+button {
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
